@@ -1,5 +1,5 @@
 #include <stdio.h>
-int a = 10;   //gloabl variable
+int a = 10;   //global variable
 int fun1(int num)
 {
     return num + a;
