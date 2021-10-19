@@ -1,0 +1,17 @@
+#include<stdio.h>
+#define size 50
+struct empl {
+    char name[size];
+    int age;
+    float salary;
+}empl1;
+void main()
+{
+printf("Enter the name of employee\n");
+gets(empl1.name);
+printf("Enter the age of an employee\n");
+scanf("%d",&empl1.age);
+printf("Enter the salary of an employee\n");
+scanf("%f",&empl1.salary);
+printf("Employee name- %s\nEmployee age- %d\nEmployee salary- %f",empl1.name, empl1.age,empl1.salary);
+}
